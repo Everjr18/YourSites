@@ -17,6 +17,7 @@ import {
 } from "@/components/ui/select";
 import { ModeToggle } from "../theme/theme";
 import { usePathname, useRouter } from "next/navigation";
+import { useState } from "react";
 
 export function Nav() {
 	const router = useRouter();
@@ -44,7 +45,9 @@ export function Nav() {
 		<section className="hidden md:flex md:flex-row md:gap-2">
 			<Select onValueChange={switchLocale}>
 				<SelectTrigger className="w-[180px]">
-					<SelectValue placeholder="Español" />
+					<SelectValue
+						placeholder={currentLocale === "es" ? "Español" : "English"}
+					/>
 				</SelectTrigger>
 				<SelectContent>
 					<SelectGroup>

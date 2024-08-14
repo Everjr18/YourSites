@@ -26,7 +26,7 @@ export default async function RootLayout({
 	params: { slug: string };
 }>) {
 	const messages = await getMessages();
-
+	
 	return (
 		<html lang={slug} suppressHydrationWarning={true}>
 			<body
@@ -42,7 +42,7 @@ export default async function RootLayout({
 						enableSystem
 						disableTransitionOnChange
 					>
-						<NavMain />
+						<NavMain slug={slug} />
 						{children}
 						<Footer />
 					</ThemeProvider>
