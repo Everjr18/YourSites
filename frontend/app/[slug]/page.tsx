@@ -1,4 +1,13 @@
-export default function LinksPage({ params }: { params: { slug: string } }) {
-	console.log(params);
-	return <h1>Hola</h1>;
+import Hero from "@/components/hero/hero";
+import MadeOnYourSite from "@/components/madeonyoursite/madeOnYourSite";
+import PopularService from "@/components/popularservice/popularService";
+
+export default function Home() {
+	return (
+		<main className="">
+			<Hero />
+			<MadeOnYourSite />
+			<PopularService />
+		</main>
+	);
 }

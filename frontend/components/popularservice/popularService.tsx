@@ -1,4 +1,4 @@
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import {
 	Carousel,
 	CarouselContent,
@@ -6,29 +6,31 @@ import {
 	CarouselNext,
 	CarouselPrevious,
 } from "@/components/ui/carousel";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 export default function PopularService() {
+	const t = useTranslations("HomePagePopularService");
 	const data = [
 		{
 			id: "1",
-			title: "Website Development",
-			cardstyle: "bg-[#045111]",
-			roundedstyle: "bg-[#BCFCC7]",
+			title: t("cardtitle"),
+			cardstyle: "bg-[#750414]",
+			roundedstyle: "bg-[#F0C8C9]",
 			image: "/websitedevelopment.webp",
 			imagestyle: "bg-[#07391f]",
 		},
 		{
 			id: "2",
-			title: "Pasarela de pago",
-			cardstyle: "bg-[#750414]",
-			roundedstyle: "bg-[#F0C8C9]",
-			image: "/websitedevelopment.webp",
+			title: t("cardtitle1"),
+			cardstyle: "bg-[#045111]",
+			roundedstyle: "bg-[#BCFCC7]",
+			image: "/payment.svg",
 			imagestyle: "bg-[#910E20]",
 		},
 	];
 	return (
 		<section>
-			<h4 className="font-bold text-[#216140] text-2xl p-5">Popular Service</h4>
+			<CardTitle className="p-6 mt-5">{t("title")}</CardTitle>
 			<div className="flex items-center justify-center flex-col">
 				<Carousel className="w-full max-w-sm">
 					<CarouselContent className="-ml-1">
@@ -47,9 +49,9 @@ export default function PopularService() {
 												<Image
 													src={item.image}
 													alt="web development"
-													width="250"
-													height="200"
-													className={`${item.imagestyle} p-2`}
+													width={250}
+													height={200}
+													className="rounded-lg"
 												/>
 											</div>
 										</CardContent>

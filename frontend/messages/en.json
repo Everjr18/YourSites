@@ -1,0 +1,16 @@
+{
+  "HomePageHero": {
+    "title": "Build your website dream!",
+    "content": "At YourSite, we specialize in turning your ideas into impressive and functional websites. Our team of web design and development experts works with you to create custom digital solutions that not only look great, but also meet your business goals. Whether you need a corporate website, an online store or a custom platform, we are here to help you achieve online success."
+  },
+  "HomePageMadeOnYourSite": {
+    "title": "Made on YourSite",
+    "subtitle": "Website: Examenes",
+    "subtitle1": "By YourSite"
+  },
+  "HomePagePopularService": {
+    "title": "Popular Services",
+    "cardtitle": "Website development",
+    "cardtitle1": "Payment gateway"
+  }
+}
