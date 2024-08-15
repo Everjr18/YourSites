@@ -7,6 +7,7 @@ import NavMain from "@/components/nav/navMain";
 import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import Footer from "@/components/footer/footer";
+import ClientwhatsappComponent from "@/components/whatsapp/DynamicWhatsapp";
 
 export const metadata: Metadata = {
 	title: "Create Next App",
@@ -26,7 +27,7 @@ export default async function RootLayout({
 	params: { slug: string };
 }>) {
 	const messages = await getMessages();
-	
+
 	return (
 		<html lang={slug} suppressHydrationWarning={true}>
 			<body
@@ -44,6 +45,7 @@ export default async function RootLayout({
 					>
 						<NavMain slug={slug} />
 						{children}
+						<ClientwhatsappComponent />
 						<Footer />
 					</ThemeProvider>
 				</NextIntlClientProvider>
