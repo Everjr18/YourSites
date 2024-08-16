@@ -1,0 +1,77 @@
+@keyframes sky {
+    20% {
+        background-color: #a0d0d1;
+    }
+
+    50% {
+        background-color: #fff9a3;
+    }
+
+    70% {
+        background-color: #cb8389;
+    }
+
+    100% {
+        background-color: #57416d;
+    }
+}
+
+.waves {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    height: 20px;
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle at 20px -5px,
+            transparent 22px,
+            #2d90af 18px);
+    background-repeat: repeat;
+    animation: waves 10s infinite forwards linear;
+}
+
+@keyframes waves {
+    100% {
+        transform: translate(200px);
+    }
+}
+
+.waves:before {
+    position: absolute;
+    content: "";
+    background-color: #2d90af;
+    height: 30px;
+    width: 100vw;
+    bottom: -30px;
+}
+
+.sand {
+    background-color: #efbd4a;
+    height: 288px;
+    width: 350px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 100% 0 0;
+    opacity: 50%;
+    z-index: 0;
+}
+
+.sun {
+    background-color: orange;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 320px;
+    z-index: -2;
+    animation: sunset 8s linear forwards;
+}
+
+@keyframes sunset {
+    100% {
+        transform: translateY(480px);
+    }
+}
