@@ -12,5 +12,9 @@
     "title": "Servicios populares",
     "cardtitle": "Desarrollo de sitios web",
     "cardtitle1": "Pasarela de pago "
+  },
+  "HomePageNav": {
+    "firstmenunav": "Por que elegir YourSite",
+    "secondmenunav": "Nosotros"
   }
 }

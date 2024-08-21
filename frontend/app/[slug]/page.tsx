@@ -5,7 +5,7 @@ import PopularService from "@/components/popularservice/popularService";
 
 export default function Home() {
 	return (
-		<main className="">
+		<main className="max-w-max">
 			<HomeVideo />
 			<MadeOnYourSite />
 			<Hero />

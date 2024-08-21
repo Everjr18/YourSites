@@ -12,5 +12,9 @@
     "title": "Popular Services",
     "cardtitle": "Website development",
     "cardtitle1": "Payment gateway"
+  },
+  "HomePageNav": {
+    "firstmenunav": "Why choose YourSite",
+    "secondmenunav": "Us"
   }
 }

@@ -32,7 +32,7 @@ export default async function RootLayout({
 		<html lang={slug} suppressHydrationWarning={true}>
 			<body
 				className={cn(
-					"min-h-screen bg-background font-sans antialiased",
+					"min-h-screen bg-background font-sans antialiased !mr-0",
 					fontSans.variable,
 				)}
 			>
@@ -44,6 +44,7 @@ export default async function RootLayout({
 						disableTransitionOnChange
 					>
 						<NavMain slug={slug} />
+
 						{children}
 						<ClientwhatsappComponent />
 						<Footer />

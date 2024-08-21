@@ -17,11 +17,12 @@ import {
 } from "@/components/ui/select";
 import { ModeToggle } from "../theme/theme";
 import { usePathname, useRouter } from "next/navigation";
-import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 export function Nav() {
 	const router = useRouter();
 	const pathname = usePathname();
+	const t = useTranslations("HomePageNav");
 
 	// Get the current locale from the pathname
 	const currentLocale = pathname.startsWith("/es") ? "es" : "en";
@@ -61,21 +62,14 @@ export function Nav() {
 					<NavigationMenuItem>
 						<Link href={getLocalizedHref("/yoursite")} legacyBehavior passHref>
 							<NavigationMenuLink className={navigationMenuTriggerStyle()}>
-								Por que elegir YourSite
+								{t("firstmenunav")}
 							</NavigationMenuLink>
 						</Link>
 					</NavigationMenuItem>
 					<NavigationMenuItem>
 						<Link href={getLocalizedHref("/nosotros")} legacyBehavior passHref>
 							<NavigationMenuLink className={navigationMenuTriggerStyle()}>
-								Nosotros
-							</NavigationMenuLink>
-						</Link>
-					</NavigationMenuItem>
-					<NavigationMenuItem>
-						<Link href="/docs" legacyBehavior passHref>
-							<NavigationMenuLink className={navigationMenuTriggerStyle()}>
-								Documentation
+								{t("secondmenunav")}
 							</NavigationMenuLink>
 						</Link>
 					</NavigationMenuItem>
