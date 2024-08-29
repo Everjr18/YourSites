@@ -1,7 +1,9 @@
+"use client";
 import Image from "next/image";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { useTranslations } from "next-intl";
 import VideoHero from "./videohero/videohero";
+import Pixi from "./pixi";
 export default function Hero() {
 	const t = useTranslations("HomePageHero");
 	return (
@@ -17,7 +19,8 @@ export default function Hero() {
 
 			{/* <Image src="./heropicture.svg" alt="hero" width={600} height={338} 
 			/> */}
-			<VideoHero />
+			{/* <VideoHero /> */}
+			<Pixi />
 		</Card>
 	);
 }

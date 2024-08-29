@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@codaworks/react-glow": "^1.0.6",
+    "@pixi/react": "^7.1.2",
     "@radix-ui/react-alert-dialog": "^1.1.1",
     "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-dropdown-menu": "^2.1.1",
@@ -24,6 +25,7 @@
     "next": "14.2.5",
     "next-intl": "^3.17.4",
     "next-themes": "^0.3.0",
+    "pixi.js": "^7.4.2",
     "react": "^18",
     "react-dom": "^18",
     "react-floating-whatsapp": "^5.0.8",
