@@ -1,0 +1,23 @@
+import mysql from 'mysql2/promise'
+
+const executeQuery = async (query, data) => {
+  try {
+    const db = await mysql.createConnection({
+      host: process.env.DB_HOST,
+      port: process.env.DB_PORT,
+      user: process.env.DB_USER,
+      password: process.env.DB_PASSWORD,
+      database: process.env.DB_NAME,
+    })
+    const [result] = await db.execute(query, data)
+    console.log(result)
+    await db.end()
+    return JSON.parse(JSON.stringify(result))
+  } catch (error) {
+    console.log(error)
+    // biome-ignore lint/complexity/noUselessCatch: <explanation>
+    throw error
+  }
+}
+
+export default executeQuery
