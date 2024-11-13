@@ -3,8 +3,9 @@ import Technologies from "./technologies/technologies";
 import Background from "./background/background";
 import OurMission from "./content/ourmission";
 import CompanyValues from "./content/companyvalues";
-import WorkCulture from "./content/workculture";
+
 import Header from "./content/header";
+import WorkCulture from "./content/workculture";
 export default function NosotrosPage() {
 	return (
 		<div className="relative">

@@ -47,7 +47,7 @@ export default function PricingPlans() {
                 <div className="text-3xl font-bold mb-4">
                   {t(`plans.${plan.id}.price`)}
                 </div>
-                <p className="text-gray-600 mb-6">
+                <p className="text-muted-foreground mb-6">
                   {t(`plans.${plan.id}.description`)}
                 </p>
                 <ul className="space-y-3 mb-6">

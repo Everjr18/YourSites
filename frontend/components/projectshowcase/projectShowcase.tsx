@@ -44,7 +44,7 @@ export default function ProjectShowcase() {
                     <CardTitle className="text-xl font-bold mb-3">
                       {t(`projects.${projectId}.title`)}
                     </CardTitle>
-                    <CardDescription className="text-gray-600 mb-4">
+                    <CardDescription className="text-muted-foreground mb-4">
                       {t(`projects.${projectId}.description`)}
                     </CardDescription>
                   </CardHeader>
@@ -65,7 +65,7 @@ export default function ProjectShowcase() {
                           <div className="text-2xl font-bold text-blue-600">
                             {t(`projects.${projectId}.metrics.${metricId}.value`)}
                           </div>
-                          <div className="text-sm text-gray-500">
+                          <div className="text-sm text-muted-foreground">
                             {t(`projects.${projectId}.metrics.${metricId}.label`)}
                           </div>
                         </div>

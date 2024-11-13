@@ -34,7 +34,7 @@ export default function ProcessTimeline() {
                 <h3 className="text-xl font-bold mb-2">
                   {t(`steps.${step.id}.title`)}
                 </h3>
-                <p className="text-gray-600 mb-2">
+                <p className="text-muted-foreground mb-2">
                   {t(`steps.${step.id}.description`)}
                 </p>
                 <span className="text-sm text-blue-600">

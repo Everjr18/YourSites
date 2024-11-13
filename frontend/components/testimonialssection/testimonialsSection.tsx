@@ -48,13 +48,13 @@ export default function TestimonialsSection() {
                       <CardTitle className="font-bold">
                         {t(`testimonials.${testimonialId}.name`)}
                       </CardTitle>
-                      <CardDescription className="text-sm text-gray-600">
+                      <CardDescription className="text-sm text-muted-foreground">
                         {t(`testimonials.${testimonialId}.role`)} 
                       </CardDescription>
                     </CardHeader>
                   </div>
                 </div>
-                <CardContent className="text-gray-600 mb-4">
+                <CardContent className="text-muted-foreground mb-4">
                   {t(`testimonials.${testimonialId}.content`)}
                 </CardContent>
                 <div className="flex text-yellow-400 p-6">

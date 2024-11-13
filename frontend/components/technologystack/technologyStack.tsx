@@ -29,7 +29,7 @@ export default function TechnologyStack() {
             <Card key={tech.name} className="flex flex-col items-center p-4 ">
               <span>{tech.icon}</span>
               <CardTitle className="text-lg font-medium">{tech.name}</CardTitle>
-              <span className="text-sm text-gray-500">{tech.category}</span>
+              <span className="text-sm text-muted-foreground">{tech.category}</span>
             </Card>
           ))}
         </div>

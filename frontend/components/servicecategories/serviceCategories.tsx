@@ -23,7 +23,7 @@ export default function ServiceCategories() {
               <CardTitle className="text-xl font-bold mb-3">
                 {t(`services.${serviceId}.title`)}
               </CardTitle>
-              <CardDescription className="text-gray-600 mb-4">
+              <CardDescription className="text-muted-foreground mb-4">
                 {t(`services.${serviceId}.description`)}
               </CardDescription>
               <ul className="space-y-2">

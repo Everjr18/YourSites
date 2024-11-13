@@ -25,7 +25,7 @@ export default function FAQSection() {
               <h3 className="text-xl font-bold mb-2">
                 {t(`faqs.${faq.id}.question`)}
               </h3>
-              <p className="text-gray-600">
+              <p className="text-muted-foreground">
                 {t(`faqs.${faq.id}.answer`)}
               </p>
             </div>
