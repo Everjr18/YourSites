@@ -3,11 +3,6 @@
     "title": "Construye la pagina web de tus sueños",
     "content": "En YourSite, nos especializamos en convertir tus ideas en sitios web impresionantes y funcionales. Nuestro equipo de expertos en diseño y desarrollo web trabaja contigo para crear soluciones digitales personalizadas que no solo se ven geniales, sino que también cumplen con tus objetivos de negocio. Ya sea que necesites un sitio web corporativo, una tienda en línea o una plataforma personalizada, estamos aquí para ayudarte a alcanzar el éxito en línea."
   },
-  "HomePageMadeOnYourSite": {
-    "title": "Realizado en  YourSite",
-    "subtitle": "Pagina web: Examenes ",
-    "subtitle1": "Por YourSites"
-  },
   "HomePagePopularService": {
     "title": "Servicios populares",
     "cardtitle": "Desarrollo de sitios web",
@@ -16,5 +11,254 @@
   "HomePageNav": {
     "firstmenunav": "Por que elegir YourSite",
     "secondmenunav": "Nosotros"
+  },
+  "ContactCTA": {
+    "title": "¿Listo para Comenzar tu Proyecto?",
+    "description": "Hablemos sobre cómo podemos ayudar a hacer realidad tu visión",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "projectDetails": "Detalles del Proyecto",
+    "submitButton": "Obtener Consulta Gratuita"
+  },
+  "TechnologyStack": {
+    "title": "Tecnologías que utilizamos"
+  },
+  "ServiceCategories": {
+    "title": "Nuestros Servicios",
+    "services": {
+      "webDev": {
+        "title": "Desarrollo Web",
+        "description": "Aplicaciones web personalizadas construidas con tecnologías modernas",
+        "icon": "🌐",
+        "benefits": [
+          "Diseño Responsivo",
+          "Optimizado para SEO",
+          "Alto Rendimiento",
+          "Documentación"
+        ]
+      },
+      "aiIntegration": {
+        "title": "Integración de IA",
+        "description": "Integración perfecta de APIs y servicios de inteligencia artificial",
+        "icon": "🤖",
+        "benefits": [
+          "Procesamiento de Lenguaje Natural",
+          "Modelos de Aprendizaje Automático",
+          "Integración de Chatbots",
+          "Análisis Predictivo"
+        ]
+      },
+      "apiDev": {
+        "title": "Desarrollo de APIs",
+        "description": "Soluciones de API robustas y escalables para tus aplicaciones",
+        "icon": "🔌",
+        "benefits": [
+          "Arquitectura RESTful",
+          "Soporte GraphQL",
+          "Autenticación y Seguridad",
+          "Documentación"
+        ]
+      }
+    }
+  },
+  "ProjectShowcase": {
+    "title": "Nuestros Casos de Éxito",
+    "projects": {
+      "educationalPlatform": {
+        "title": "Plataforma Educativa",
+        "description": "Una solución completa de Exámenes con características avanzadas",
+        "technologies": [
+          "Next.js",
+          "Node.js",
+          "Typescript",
+          "TailwindCSS",
+          "SQL"
+        ],
+        "metrics": {
+          "conversionRate": {
+            "label": "Tasa de Conversión",
+            "value": "+45%"
+          },
+          "loadTime": {
+            "label": "Tiempo de Carga",
+            "value": "0.8s"
+          }
+        }
+      }
+    }
+  },
+  "TestimonialsSection": {
+    "title": "Lo Que Dicen Nuestros Clientes",
+    "testimonials": {
+      "john": {
+        "name": "John Doe",
+        "role": "Director de Tecnología",
+        "company": "Examenes",
+        "content": "Servicio excepcional y experiencia técnica. Entregaron nuestro proyecto a tiempo y superaron las expectativas.",
+        "rating": 5
+      }
+    }
+  },
+  "PricingPlans": {
+    "title": "Planes",
+    "getStarted": "Comenzar",
+    "popularBadge": "Popular",
+    "plans": {
+      "basic": {
+        "name": "Básico",
+        "price": "$999",
+        "description": "Perfecto para proyectos pequeños",
+        "features": ["Hasta 5 páginas", "SEO Básico", "Diseño Responsivo"]
+      },
+      "professional": {
+        "name": "Profesional",
+        "price": "$2499",
+        "description": "Para negocios en crecimiento",
+        "features": [
+          "Hasta 15 páginas",
+          "SEO Avanzado",
+          "Características Personalizadas"
+        ],
+        "isPopular": true
+      },
+      "enterprise": {
+        "name": "Empresarial",
+        "price": "$4999",
+        "description": "Para grandes empresas",
+        "features": [
+          "Páginas ilimitadas",
+          "SEO Avanzado",
+          "Características Personalizadas"
+        ]
+      }
+    }
+  },
+  "ProcessTimeline": {
+    "title": "Nuestro Proceso de Desarrollo",
+    "steps": {
+      "discovery": {
+        "title": "Descubrimiento",
+        "description": "Comprendiendo tus requisitos y el alcance del proyecto",
+        "duration": "1-2 semanas",
+        "icon": "🎯"
+      },
+      "planning": {
+        "title": "Planificación",
+        "description": "Creando especificaciones técnicas y cronograma del proyecto",
+        "duration": "1 semana",
+        "icon": "📋"
+      },
+      "development": {
+        "title": "Desarrollo",
+        "description": "Construyendo tu proyecto con nuestro stack tecnológico",
+        "duration": "2-4 semanas",
+        "icon": "🛠️"
+      },
+      "deployment": {
+        "title": "Implementación",
+        "description": "Desplegando tu proyecto y asegurando que funcione correctamente",
+        "duration": "1 semana",
+        "icon": "🚀"
+      },
+      "maintenance": {
+        "title": "Mantenimiento",
+        "description": "Soporte continuo y actualizaciones para mantener tu proyecto funcionando sin problemas",
+        "duration": "Continuo",
+        "icon": "🔧"
+      }
+    }
+  },
+  "FAQSection": {
+    "title": "Preguntas Frecuentes",
+    "faqs": {
+      "technologies": {
+        "question": "¿En qué tecnologías se especializan?",
+        "answer": "Nos especializamos en tecnologías web modernas incluyendo React, Node.js y más. Nuestro equipo se mantiene actualizado con los últimos desarrollos en la industria tecnológica."
+      },
+      "security": {
+        "question": "¿Cómo manejan la seguridad?",
+        "answer": "Priorizamos la seguridad implementando las mejores prácticas para la protección de datos, auditorías de seguridad regulares y manteniéndonos actualizados con las últimas amenazas y soluciones de seguridad."
+      },
+      "process": {
+        "question": "¿Cómo es su proceso de desarrollo?",
+        "answer": "Nuestro proceso es colaborativo e iterativo. Comenzamos con una fase de descubrimiento exhaustiva para entender sus necesidades, seguida de diseño, desarrollo, pruebas e implementación. Lo mantenemos involucrado durante todo el proceso para asegurar que su visión se cumpla."
+      },
+      "support": {
+        "question": "¿Cómo manejan el soporte y mantenimiento?",
+        "answer": "Ofrecemos servicios continuos de soporte y mantenimiento para asegurar que su proyecto funcione sin problemas. Nuestro equipo está disponible para resolver cualquier problema y proporcionar actualizaciones y mejoras según sea necesario."
+      }
+    }
+  },
+  "NosotrosPage": {
+    "Header": {
+      "title": "Transformamos Ideas en Experiencias Digitales",
+      "subtitle": "Somos un equipo apasionado por el desarrollo de software, dedicados a crear soluciones innovadoras que impulsan el éxito de nuestros clientes.",
+      "stats": {
+        "experience": {
+          "value": "5+",
+          "label": "Años de Experiencia"
+        },
+        "projects": {
+          "value": "100+",
+          "label": "Proyectos Completados"
+        },
+        "clients": {
+          "value": "50+",
+          "label": "Clientes Satisfechos"
+        }
+      }
+    },
+    "OurMission": {
+      "mission": {
+        "title": "Nuestra Misión",
+        "text": "Transformar ideas en soluciones digitales innovadoras, creando proyectos web y móviles que impulsen el éxito de nuestros clientes en el mundo digital."
+      },
+      "vision": {
+        "title": "Nuestra Visión",
+        "text": "Ser reconocidos como líderes en desarrollo de software, destacando por nuestra capacidad de crear soluciones tecnológicas que marcan la diferencia en el mercado."
+      },
+      "goals": {
+        "title": "Nuestros Objetivos",
+        "item1": "Entregar proyectos de alta calidad que superen las expectativas",
+        "item2": "Mantenernos a la vanguardia de las tecnologías emergentes",
+        "item3": "Garantizar el éxito y crecimiento de nuestros clientes"
+      }
+    },
+    "WorkCulture": {
+      "sectionTitle": "Nuestra Cultura",
+      "agile": {
+        "title": "Desarrollo Ágil",
+        "description": "Implementamos metodologías ágiles para garantizar entregas eficientes y resultados óptimos"
+      },
+      "innovation": {
+        "title": "Innovación Constante",
+        "description": "Exploramos nuevas tecnologías y metodologías para ofrecer las mejores soluciones"
+      },
+      "collaboration": {
+        "title": "Colaboración con Clientes",
+        "description": "Trabajamos en estrecha colaboración con nuestros clientes para entender y cumplir sus objetivos"
+      }
+    },
+    "CompanyValues": {
+      "sectionTitle": "Nuestros Valores",
+      "values": {
+        "innovation": {
+          "title": "Innovación Técnica",
+          "description": "Utilizamos las últimas tecnologías para crear soluciones modernas y escalables"
+        },
+        "quality": {
+          "title": "Calidad",
+          "description": "Cada línea de código está escrita con los más altos estándares de desarrollo"
+        },
+        "commitment": {
+          "title": "Compromiso",
+          "description": "Nos dedicamos a cumplir plazos y objetivos, manteniendo una comunicación constante"
+        },
+        "adaptability": {
+          "title": "Adaptabilidad",
+          "description": "Nos adaptamos rápidamente a nuevos desafíos y requerimientos del proyecto"
+        }
+      }
+    }
   }
 }

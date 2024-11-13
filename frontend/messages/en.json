@@ -3,11 +3,6 @@
     "title": "Build your website dream!",
     "content": "At YourSite, we specialize in turning your ideas into impressive and functional websites. Our team of web design and development experts works with you to create custom digital solutions that not only look great, but also meet your business goals. Whether you need a corporate website, an online store or a custom platform, we are here to help you achieve online success."
   },
-  "HomePageMadeOnYourSite": {
-    "title": "Made on YourSite",
-    "subtitle": "Website: Examenes",
-    "subtitle1": "By YourSite"
-  },
   "HomePagePopularService": {
     "title": "Popular Services",
     "cardtitle": "Website development",
@@ -16,5 +11,246 @@
   "HomePageNav": {
     "firstmenunav": "Why choose YourSite",
     "secondmenunav": "Us"
+  },
+  "ContactCTA": {
+    "title": "Ready to Start Your Project?",
+    "description": "Let's discuss how we can help bring your vision to life",
+    "name": "Name",
+    "email": "Email",
+    "projectDetails": "Project Details",
+    "submitButton": "Get Free Consultation"
+  },
+  "TechnologyStack": {
+    "title": "Our Technology Stack"
+  },
+  "ServiceCategories": {
+    "title": "Our Services",
+    "services": {
+      "webDev": {
+        "title": "Web Development",
+        "description": "Custom web applications built with modern technologies",
+        "icon": "🌐",
+        "benefits": [
+          "Responsive Design",
+          "SEO Optimized",
+          "High Performance",
+          "Documentation"
+        ]
+      },
+      "aiIntegration": {
+        "title": "AI Integration",
+        "description": "Seamless integration of artificial intelligence APIs and services",
+        "icon": "🤖",
+        "benefits": [
+          "Natural Language Processing",
+          "Machine Learning Models",
+          "Chatbot Integration",
+          "Predictive Analytics"
+        ]
+      },
+      "apiDev": {
+        "title": "API Development",
+        "description": "Robust and scalable API solutions for your applications",
+        "icon": "🔌",
+        "benefits": [
+          "RESTful Architecture",
+          "GraphQL Support",
+          "Authentication & Security",
+          "Documentation"
+        ]
+      }
+    }
+  },
+  "ProjectShowcase": {
+    "title": "Our Success Stories",
+    "projects": {
+      "educationalPlatform": {
+        "title": "Educational Platform",
+        "description": "A full-stack Examenes solution with advanced features",
+        "technologies": [
+          "Next.js",
+          "Node.js",
+          "Typescript",
+          "TailwindCSS",
+          "SQL"
+        ],
+        "metrics": {
+          "conversionRate": {
+            "label": "Conversion Rate",
+            "value": "+45%"
+          },
+          "loadTime": {
+            "label": "Load Time",
+            "value": "0.8s"
+          }
+        }
+      }
+    }
+  },
+  "TestimonialsSection": {
+    "title": "What Our Clients Say",
+    "testimonials": {
+      "john": {
+        "name": "John Doe",
+        "role": "CTO",
+        "company": "Examenes",
+        "content": "Exceptional service and technical expertise. Delivered our project on time and exceeded expectations.",
+        "rating": 5
+      }
+    }
+  },
+  "PricingPlans": {
+    "title": "Pricing Plans",
+    "getStarted": "Get Started",
+    "popularBadge": "Popular",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "price": "$999",
+        "description": "Perfect for small projects",
+        "features": ["Up to 5 pages", "Basic SEO", "Mobile Responsive"]
+      },
+      "professional": {
+        "name": "Professional",
+        "price": "$2499",
+        "description": "For growing businesses",
+        "features": ["Up to 15 pages", "Advanced SEO", "Custom Features"],
+        "isPopular": true
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "$4999",
+        "description": "For large enterprises",
+        "features": ["Unlimited pages", "Advanced SEO", "Custom Features"]
+      }
+    }
+  },
+  "ProcessTimeline": {
+    "title": "Our Development Process",
+    "steps": {
+      "discovery": {
+        "title": "Discovery",
+        "description": "Understanding your requirements and project scope",
+        "duration": "1-2 weeks",
+        "icon": "🎯"
+      },
+      "planning": {
+        "title": "Planning",
+        "description": "Creating technical specifications and project timeline",
+        "duration": "1 week",
+        "icon": "📋"
+      },
+      "development": {
+        "title": "Development",
+        "description": "Building your project with our technology stack",
+        "duration": "2-4 weeks",
+        "icon": "🛠️"
+      },
+      "deployment": {
+        "title": "Deployment",
+        "description": "Deploying your project and ensuring smooth operations",
+        "duration": "1 week",
+        "icon": "🚀"
+      },
+      "maintenance": {
+        "title": "Maintenance",
+        "description": "Ongoing support and updates to keep your project running smoothly",
+        "duration": "Ongoing",
+        "icon": "🔧"
+      }
+    }
+  },
+  "FAQSection": {
+    "title": "Frequently Asked Questions",
+    "faqs": {
+      "technologies": {
+        "question": "What technologies do you specialize in?",
+        "answer": "We specialize in modern web technologies including React, Node.js, Python, and more. Our team stays up-to-date with the latest developments in the tech industry."
+      },
+      "security": {
+        "question": "How do you handle security?",
+        "answer": "We prioritize security by implementing best practices for data protection, regular security audits, and staying updated with the latest security threats and solutions."
+      },
+      "process": {
+        "question": "What is your development process like?",
+        "answer": "Our process is collaborative and iterative. We start with a thorough discovery phase to understand your needs, followed by design, development, testing, and deployment. We keep you involved throughout the process to ensure your vision is met."
+      },
+      "support": {
+        "question": "How do you handle support and maintenance?",
+        "answer": "We offer ongoing support and maintenance services to ensure your project runs smoothly. Our team is available to address any issues and provide updates and improvements as needed."
+      }
+    }
+  },
+  "NosotrosPage": {
+    "Header": {
+      "title": "Transforming Ideas into Digital Experiences",
+      "subtitle": "We are a team passionate about software development, dedicated to creating innovative solutions that drive our clients' success.",
+      "stats": {
+        "experience": {
+          "value": "5+",
+          "label": "Years of Experience"
+        },
+        "projects": {
+          "value": "100+",
+          "label": "Projects Completed"
+        },
+        "clients": {
+          "value": "50+",
+          "label": "Happy Clients"
+        }
+      }
+    },
+    "OurMission": {
+      "mission": {
+        "title": "Our Mission",
+        "text": "Transform ideas into innovative digital solutions, creating web and mobile projects that drive our clients' success in the digital world."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "text": "To be recognized as leaders in software development, standing out for our ability to create technological solutions that make a difference in the market."
+      },
+      "goals": {
+        "title": "Our Goals",
+        "item1": "Deliver high-quality projects that exceed expectations",
+        "item2": "Stay at the forefront of emerging technologies",
+        "item3": "Ensure our clients' success and growth"
+      }
+    },
+    "WorkCulture": {
+      "sectionTitle": "Our Culture",
+      "agile": {
+        "title": "Agile Development",
+        "description": "We implement agile methodologies to ensure efficient delivery and optimal results"
+      },
+      "innovation": {
+        "title": "Constant Innovation",
+        "description": "We explore new technologies and methodologies to offer the best solutions"
+      },
+      "collaboration": {
+        "title": "Client Collaboration",
+        "description": "We work closely with our clients to understand and meet their objectives"
+      }
+    },
+    "CompanyValues": {
+      "sectionTitle": "Our Values",
+      "values": {
+        "innovation": {
+          "title": "Technical Innovation",
+          "description": "We use the latest technologies to create modern and scalable solutions"
+        },
+        "quality": {
+          "title": "Quality",
+          "description": "Every line of code is written to the highest development standards"
+        },
+        "commitment": {
+          "title": "Commitment",
+          "description": "We are dedicated to meeting deadlines and objectives, maintaining constant communication"
+        },
+        "adaptability": {
+          "title": "Adaptability",
+          "description": "We quickly adapt to new project challenges and requirements"
+        }
+      }
+    }
   }
 }

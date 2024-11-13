@@ -1,12 +1,20 @@
 import Card from "./card";
 import Technologies from "./technologies/technologies";
 import Background from "./background/background";
+import OurMission from "./content/ourmission";
+import CompanyValues from "./content/companyvalues";
+import WorkCulture from "./content/workculture";
+import Header from "./content/header";
 export default function NosotrosPage() {
 	return (
 		<div className="relative">
-			<Card />
+			{/* <Card />
 			<Background />
-			<Technologies />
+			<Technologies /> */}
+			<Header />
+			<OurMission />
+			<CompanyValues />
+			<WorkCulture />
 		</div>
 	);
 }
