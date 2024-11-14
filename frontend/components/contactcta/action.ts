@@ -34,6 +34,18 @@ export const insertConsult = async (prevState: FormState, formData: FormData): P
       )) as RowDataPacket
       
       if (response?.affectedRows) {
+        try {
+          await fetch(`https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              chat_id: process.env.TELEGRAM_CHAT_ID,
+              text: `🔔 Nueva Consulta!\n\nNombre: ${fullname}\nEmail: ${email}\nMensaje: ${consult}`
+            })
+          });
+        } catch (error) {
+          console.error('Error sending telegram message:', error);
+        }
         
         return {
           success: true,
