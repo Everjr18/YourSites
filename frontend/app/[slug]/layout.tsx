@@ -8,6 +8,7 @@ import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import Footer from "@/components/footer/footer";
 import ClientwhatsappComponent from "@/components/whatsapp/DynamicWhatsapp";
+import { Toaster } from "@/components/ui/sonner";
 
 export const metadata: Metadata = {
 	title: "Create Next App",
@@ -50,6 +51,7 @@ export default async function RootLayout({
 						<Footer />
 					</ThemeProvider>
 				</NextIntlClientProvider>
+				<Toaster />
 			</body>
 		</html>
 	);

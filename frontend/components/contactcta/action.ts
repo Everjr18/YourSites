@@ -2,8 +2,10 @@
 import type { RowDataPacket } from 'mysql2'
 import { z } from 'zod'
 import executeQuery from './mysqldb'
+import type { FormState } from '../contactcta/contactCTA'
 
-export const insertConsult = async (formData: FormData) => {
+
+export const insertConsult = async (prevState: FormState, formData: FormData): Promise<FormState> => {
   const fullname = formData.get('fullname')
   const email = formData.get('email')
   const consult = formData.get('consult')
@@ -32,24 +34,27 @@ export const insertConsult = async (formData: FormData) => {
       )) as RowDataPacket
       
       if (response?.affectedRows) {
+        
         return {
           success: true,
-          message: 'Consulta enviada exitosamente'
-        }
+          message: 'Consulta enviada exitosamente',
+          errors: {}
+        } as FormState
       }
       
       return {
         success: false,
-        message: 'Error al enviar la consulta'
-      }
+        message: 'Error al enviar la consulta',
+        errors: {}
+      } as FormState
 
     } catch (error) {
-      console.error('Database error:', error)
       return {
         success: false,
-        message: 'Error en el servidor',
+        message: 'Intentalo mas tarde',
+        errors: {},
         error: error instanceof Error ? error.message : 'Unknown error'
-      }
+      } as FormState
     }
   }
 
@@ -57,5 +62,6 @@ export const insertConsult = async (formData: FormData) => {
     success: false,
     message: 'Error de validación',
     errors: result.error.flatten().fieldErrors
-  }
+  } as FormState
+  
 }
