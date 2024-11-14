@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../ui/card";
+import Image from "next/image";
 
 // Define project IDs for type safety
 const PROJECT_IDS = ['educationalPlatform'] as const;
@@ -7,14 +8,14 @@ type ProjectId = typeof PROJECT_IDS[number];
 
 interface ProjectImage {
   id: ProjectId;
-  image: string;
+  image: string ;
 }
 
 // Keep images separate from translations
 const PROJECT_IMAGES: ProjectImage[] = [
   {
     id: 'educationalPlatform',
-    image: './platformEducation.webp',
+    image: '/images/platformEducation.webp'
   },
 ];
 
@@ -27,18 +28,22 @@ export default function ProjectShowcase() {
         <h2 className="text-3xl font-bold text-center mb-12">
           {t("title")}
         </h2>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 ">
           {PROJECT_IDS.map((projectId) => {
             const projectImage = PROJECT_IMAGES.find(p => p.id === projectId)?.image;
             const technologies = t.raw(`projects.${projectId}.technologies`) as string[];
             
             return (
-              <Card key={projectId} className="overflow-hidden">
-                <img 
-                  src={projectImage} 
+              <Card key={projectId} className="overflow-hidden ">
+                <div className="relative h-64">
+                <Image 
+                  src={projectImage || '/images/defaultavatar.webp'} 
                   alt={t(`projects.${projectId}.title`)} 
-                  className="w-full h-48 object-cover" 
+                  className=" object-cover" 
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
+                </div>
                 <div>
                   <CardHeader>
                     <CardTitle className="text-xl font-bold mb-3">

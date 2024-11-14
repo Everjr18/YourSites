@@ -13,7 +13,7 @@ export function TriangleMove() {
 		setAngle((prevAngle) => (prevAngle + speed * delta) % (2 * Math.PI));
 	});
 
-	const getPosition = (index) => {
+	const getPosition = (index: number) => {
 		// Calculate the angle for each image
 		const angleOffset = index * ((2 * Math.PI) / 5) + angle;
 		const x = centerX + radius * Math.cos(angleOffset);
